@@ -5,10 +5,12 @@
     "vscode": {
       "extensions": [
         "ms-python.python",
-        "github.copilot",
-        "github.copilot-chat"
+        "Continue.continue"
       ]
     }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/git-lfs:1": {}
   },
   "postCreateCommand": "sudo apt-get update && sudo apt-get install -y build-essential python3-pip && pip install pygame-ce"
 }
